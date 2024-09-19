@@ -22,12 +22,11 @@ def main():
             priority_message = "an unknown priority task"
     
     if time_bound == 'yes':
-        reminder_message = f"Reminder: '{task}' is {priority_message} that requires immediate attention today!"
+        # Ensure the print statement matches the required format
+        print(f"Reminder: '{task}' is {priority_message} that requires immediate attention today!")
     else:
-        reminder_message = f"Note: '{task}' is {priority_message}. Consider completing it when you have free time."
-    
-    # Print the reminder message
-    print(reminder_message)
+        # Ensure the print statement matches the required format
+        print(f"Note: '{task}' is {priority_message}. Consider completing it when you have free time.")
 
 if __name__ == "__main__":
     main()
