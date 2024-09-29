@@ -25,10 +25,10 @@ def main():
         # Perform conversion based on the unit
         if unit == "F":
             celsius = convert_to_celsius(temperature)
-            print(f"{temperature}°F is {celsius}°C")
+            print(f"{temperature}°F is {celsius:.6f}°C")  # Formatting to 6 decimal places
         elif unit == "C":
             fahrenheit = convert_to_fahrenheit(temperature)
-            print(f"{temperature}°C is {fahrenheit}°F")
+            print(f"{temperature}°C is {fahrenheit:.6f}°F")  # Formatting to 6 decimal places
         else:
             print("Invalid unit. Please enter 'C' for Celsius or 'F' for Fahrenheit.")
     
