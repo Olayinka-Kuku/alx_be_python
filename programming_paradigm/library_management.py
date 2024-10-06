@@ -3,7 +3,7 @@
 class Book:
     """A class representing a book in the library."""
     
-    def _init_(self, title, author):
+    def __init__(self, title, author):
         self.title = title          # Public attribute for the book's title
         self.author = author        # Public attribute for the book's author
         self._is_checked_out = False # Private attribute to track if the book is checked out
