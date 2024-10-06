@@ -30,7 +30,7 @@ class Book:
 class Library:
     """A class representing a library that manages a collection of books."""
     
-    def _init_(self):
+    def __init__(self):
         self._books = []  # Private list to store book instances
 
     def add_book(self, book):
