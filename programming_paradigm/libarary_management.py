@@ -56,6 +56,3 @@ class Library:
         available_books = [book for book in self._books if book.is_available()]
         for book in available_books:
             print(f"{book.title} by {book.author}")
-
-
-# Note: The main function for testing the library will be in the provided main.py file.
